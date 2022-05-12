@@ -1,0 +1,35 @@
+.about {
+    margin: 2%;
+    padding: 2%;
+    font-size: 2.5vw;
+    margin-top: 7.5vh;
+    
+}
+
+.profile {
+    margin-top: 2%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+
+.profile p {
+    margin: 3%;
+    font-size: 1.75vw;
+}
+
+
+
+.education{
+    margin-top: 5vh;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.uni {
+    margin-top: 3%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+

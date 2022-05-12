@@ -1,22 +1,38 @@
+import "../Styles/Contact.css";
+import logo from "../Images/linkedin.png"
+
 export default function Contact() {
 	return (
-		<div>
-			<h2>Contact details!</h2>
+		<div class="contact-section">
+			<h1>Contact</h1>
+		<div class="contact">
+			<div className="contact-form">
+			Feel free to email me directly and ask any questions!
+			</div>
+			<div class="contact-details"></div>
+			<div className="contact-me">You can take my details and reach out to me on any of the below!</div>
 			<br />
-			<h3>Phone number</h3>
-			<p>078737 14915</p>
+			<div className="number">
+				<h2>Phone number</h2>
+				<p>078737 14915</p>
+			</div>
 			<br />
-			<h3>Email Address</h3>
-			<p>steve_cocks28@hotmail.com</p>
+			<div className="email">
+				<h3>Email Address</h3>
+				<p>steve_cocks28@hotmail.com</p>
+			</div>
 			<br />
-			<h3>LinkedIn</h3>
-			<a
-				href="https://www.linkedin.com/in/stephen-cocks-1641a4238/"
-				target="_blank"
-				rel="noreferrer"
-			>
-				<p>https://www.linkedin.com/in/stephen-cocks-1641a4238/</p>
-			</a>
+			<div className="linkedin">
+				<h3>LinkedIn</h3>
+				<a
+					href="https://www.linkedin.com/in/stephen-cocks-1641a4238/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<img src={logo} alt=" " height="50vw" width="50vw" />
+				</a>
+			</div>
+		</div>
 		</div>
 	);
 }

@@ -1,63 +1,44 @@
+import "../Styles/About.css";
+
 export default function About() {
 	return (
-		<div>
-			<br />
-            <div className="experience">
-			<h1>Experience</h1>
-			<h3>
-				Northcoders - software development course - Jan 2022 to April 2022
-			</h3>
-			<p>
-				In January of 2022 i began my official education in software development
-				to become a full stack developer. Over the 13 weeks i spent at
-				Northcoders, i learnt the fundamentals of Javascript, as well as
-				learning how to code a back-end database and API and the front-end
-				website on React that would utilise the API. I also learnt the how to
-				tackle a full project process, from the initial planning of an MVP,
-				right the way through to presenting the completed application.
-			</p>
-			<br />
-			<h3>Turning Point - Recruitment Coordinator - Nov 2018 to Jan 2022</h3>
-			<p>
-				This role had me managing both the implementation and overseeing of
-				various recruitment based projects including: ATS (applicant tracking
-				system), including making necessary changes to help to the system to
-				streamline the recruitment process and pull data from it for reports.
-				Automated job advertising platform, for managing the recruitment budget
-				and allocating it where needed. All job boards used by the recruitment
-				team, including Indeed and NHS jobs. This involved liaising with company
-				reps to help strategise the best plan of action for recruiting in a
-				post-covid environment in the health and social care sector. A big
-				aspect of my role included being adaptable to any small or large issues
-				and requests that might come up, including pulling reports, and
-				assisting in recruitment needs when vacancy numbers rapidly rose.
-			</p>
-            </div>
-			<br />
-            <div className="education">
-			<h1>Education</h1>
-			<h3>
-				University of Sheffield - Chemistry - 2:2(BSc Honours) - June 2018
-			</h3>
-            </div>
-			<br />
-            <div className="hobbies">
-			<h1>Hobbies</h1>
-			<h3>Bouldering</h3>
-			<p>
-				Bouldering - I find the balance between physical activity and problem
-				solving that the sport offers keeps it constantly engaging and
-				encourages me to be more active.
-			</p>
-            <br/>
-			<h3>Gaming</h3>
-			<p>
-				I have always found myself drawn towards playing games that offer an
-				increasing difficult challenge as well as unique game play. These have
-				helped cultivate a very competitive side of myself that is always
-				striving to improve and perform to the best of my ability.
-			</p>
-            </div>
-		</div>
+		<div className="about">
+				<h2>About Me</h2>
+			<div class="profile">
+				<p>
+					Having been based in Manchester for 4 years after graduating
+					university, i decided to pursue a career that will constantly
+					challenge me both in and out of work hours and help me keep improve my
+					skills; this, along with my passion for analysis and problem solving
+					has been the main driving-force for me seeking out a new career in
+					software development. The Northcoders bootcamp was exactly the right
+					place for that; since i began the course i have been pushing myself
+					more and more to excel with an ever increasing dedication to
+					development.
+				</p>
+				<p>
+					Working as part of a team is something I am very naturally suited
+					towards as a charismatic and outgoing individual. Getting to work with
+					new people to develop and present group work is something that I
+					thoroughly enjoy getting to do as I get exposed to new ways of working
+					and tackling problems.{" "}
+				</p>
+				<p>
+					In my spare time i like to keep myself active by bouldering. It
+					provides, what i find to be, a perfect balance between physical and
+					mental activity. A bouldering problem can't always be overcome with
+					just brute force and repetition; instead, taking a step back and
+					re-evaluting the problem and trying a new method can be far more
+					beneficial and lead to a quicker positive result. This mentality is
+					one that i carry into every situation i come across.
+				</p>
+				</div>
+				<div className="education">Education</div>
+				<div class="uni">
+				<div class="university">University of Sheffield</div>
+				<div class="degree">Chemistry - 2:2 Bsc (Hons)</div>
+				</div>
+				<br />
+			</div>
 	);
 }
