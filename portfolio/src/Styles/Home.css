@@ -8,11 +8,11 @@
 	letter-spacing: 1px;
 	font-family: "Playfair Display", serif;
 	font-weight: 400;
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 .home h1 span {
 	margin-top: 5%;
-	font-size: 2.5vw;
+	font-size: 2vw;
 	color: #444;
 	word-spacing: 1px;
 	font-weight: normal;
@@ -43,6 +43,6 @@
 .home p {
     color: #444;
     text-transform: uppercase;
-    font-size: 3vw;
-    margin: 1%;
+    font-size: 1.5vw;
+    margin: 3%;
 }
