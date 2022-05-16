@@ -1,7 +1,6 @@
 import "../Styles/Contact.css";
 import logo from "../Images/linkedin.png";
 import glogo from "../Images/github-logo.png";
-import elogo from "../Images/email.jpeg";
 
 export default function Contact() {
 	return (
