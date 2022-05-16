@@ -7,7 +7,7 @@ export default function About() {
 			<div class="profile">
 				<p>
 					Having been based in Manchester for 4 years after graduating
-					university, I decided to pursue a career that will constantly
+					university, I decided it was time to pursue a career that will constantly
 					challenge me both in and out of work hours and help me to keep improving my
 					skills; this, along with my passion for analysis and problem solving
 					has been the main driving-force for me seeking out a new career in
