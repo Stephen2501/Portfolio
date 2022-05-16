@@ -9,7 +9,7 @@ export default function Projects() {
 				<div class="project-card">
 					<div class="project-card__title">NC News Back-end</div>
 					<div class="project-card__description">
-						Using a provided SQL database, i created an API using Express to
+						Using a provided SQL database, I created an API using Express to
 						provide pathways to retrieve data from the database; There are
 						various methods to manipulate the data in the form of GET, POST,
 						PATCH or DELETE requests. there is also a complete account for
