@@ -6,6 +6,7 @@ export default function Home() {
 			<h1>
 				Stephen Cocks<span>Junior Software Developer</span>
 			</h1>
+			<br/>
 			<p>Javascript, HTML, CSS, SQL, Svelte</p>
 		</div>
 	);
