@@ -1,6 +1,7 @@
 import "../Styles/Contact.css";
 import logo from "../Images/linkedin.png";
 import glogo from "../Images/github-logo.png";
+import elogo from "../Images/email.jpeg"
 
 export default function Contact() {
 	return (
@@ -23,7 +24,7 @@ export default function Contact() {
 			<br />
 			<div className="email">
 				<h2>Email Address</h2>
-				<p>steve_cocks28@hotmail.com</p>
+				<a href="mailto:steve_cocks28@hotmail.com"><img src={elogo} alt=" " height="50vw" width="50vw"/></a>
 			</div>
 			<br />
 			<div className="linkedin">
