@@ -9,7 +9,7 @@ export default function Contact() {
 			<div class="contact-list">
 			<h1>Contact</h1>
 			<div class="contact-details">
-			<div className="contact-me">Please reach out to me on any of the below!</div>
+			<div className="contact-me">Please reach out to me...</div>
 			<br />
 			<div className="github">
 				<h2>Github</h2>
@@ -23,7 +23,7 @@ export default function Contact() {
 			</div>
 			<br />
 			<div className="email">
-				<h2>Email Address</h2>
+				<h2>Email</h2>
 				<a href="mailto:steve_cocks28@hotmail.com"><img src={elogo} alt=" " height="50vw" width="50vw"/></a>
 			</div>
 			<br />
